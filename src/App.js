@@ -18,15 +18,6 @@ function App() {
     <div className='app'>
       <h1>Hello {name}</h1>
       <button onClick={changeName}>change name</button>
-      {/* 1st way - public folder way */}
-      {/* absolute path */}
-      {/* <img src="http://localhost:3000/image.jpg" alt="" /> */}
-      {/* relative path */}
-      {/* <img src="/image.jpg" alt="" /> */}
-
-
-      {/* 2nd import */}
-      {/* <img src={QAImage} alt="" /> */}
     </div>
   );
 }
